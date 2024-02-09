@@ -1,0 +1,15 @@
+<section>
+        <form class="example-form">
+                <mat-form-field class="example-full-width">
+                        <mat-label>Ingrese el texto a transcribir</mat-label>
+                        <textarea id ="textInput" matInput placeholder='Ej..."Hola mi nombre es Gonzalo"...' (keyup)="onKeypressEvent($event)"></textarea>
+                </mat-form-field>
+
+                <mat-form-field class="example-full-width">
+                        <mat-label>Texto en braille</mat-label>
+                        <textarea   id="brailleOutput" matInput placeholder="" readonly="true"></textarea>
+                </mat-form-field>
+                
+        </form>
+
+</section>
